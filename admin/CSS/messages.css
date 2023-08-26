@@ -1,0 +1,62 @@
+#interface .i-messageheading{
+    color: #444a53;
+    padding: 30px 30px 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10vh;
+}
+#interface .messages{
+    margin-top: 30px;
+}
+
+.td-reply{
+    text-decoration: none;
+    font-size: 14px;
+    color: #34c02d;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.td-details{
+    text-decoration: none;
+    font-size: 14px;
+    color: #554cd1;
+    font-weight: 600;
+    margin-left: 10px;
+}
+#interface .board .message-details{
+    overflow: hidden;
+    padding: 20px;
+}
+.message-details h4{
+    margin: 20px 30px;
+}
+#interface .messages-replay{
+    width: 80%;
+    margin: 20px auto;
+}
+#interface .messages-replay .message-reply{
+    margin: 10px 20px;
+    padding: 10px;
+}
+#interface .messages-replay .message-reply h4{
+    line-height: 30px;
+    font-size: 16px;
+    
+}
+#interface .messages-replay .message-reply input{
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#interface .messages-replay .message-reply input{
+    display: block;
+    width: 90%;
+    margin: 20px 30px 20px 30px;
+    height: 80px;
+    line-height: 35px;
+    border: none;
+    background: #E5E7EB;
+    padding-left: 8px;
+    border-radius: 4px;
+}

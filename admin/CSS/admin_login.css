@@ -1,0 +1,63 @@
+
+.admin-login{
+    margin: 10vh auto 20px auto;
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+    width: 450px;
+    border: 1px solid;
+}
+.login-heading{
+    color: #444a53;
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+ }
+
+ .admin-login input{
+    display: block;
+    width: 90%;
+    margin: 20px 30px 20px 30px;
+    height: 40px;
+    border: none;
+    background: #E5E7EB;
+    padding-left: 8px;
+    border-radius: 4px;
+ }
+
+ #interface .admin-details{
+    width: 60%;
+    margin: 16vh auto 20px auto;
+    padding: 10px 30px 30px 30px;
+
+ }
+
+ #interface .admin-details .profile-details img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 16px 30px ;
+ }
+ #interface .admin-details .profile-details h4{
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 10px;
+ }
+ #interface .admin-details .profile-details i{
+    margin-right: 20px;
+ }
+
+ #interface .admin-details .profile-details a{
+
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    background: #111827;
+    color: #fff;
+    margin: 20px 10px 20px 30px;
+ }

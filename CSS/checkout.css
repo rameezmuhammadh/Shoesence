@@ -1,0 +1,107 @@
+
+.checkout_container{
+    padding: 10px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    height: 100%;
+    margin: 16vh auto 20px auto;
+    
+}
+h3 {
+    padding-left: 20px;
+}
+.billing-info{   
+    background: var(--color-bg-2);
+    border-radius: 16px;
+    border: 1px solid  hsl(113, 13%, 90%);
+
+    padding: 10px;
+}
+table{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid  hsl(110, 7%, 80%);
+
+    width: 90%;
+   margin: 20px auto;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: black;
+    font-weight: 500;
+}
+td {
+    padding: 10px 5px;
+}
+
+.cart-info{
+    background: var(--color-bg-2);
+    border: 1px solid  hsl(113, 13%, 90%);
+
+    border-radius: 16px;
+
+    padding: 10px;
+
+}
+
+.cart-info .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart-info .product-info img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+
+}
+
+.cart-info th:last-child{
+    text-align: right;
+}
+.cart-info td:last-child{
+    text-align: right;
+}
+.cart-info .totals{
+    border-top: 1px solid black;
+}
+.checkout_container .billing-info form {
+    border: 1px solid  hsl(110, 7%, 80%);
+    border-radius: 8px;
+    margin: 30px;
+    padding: 10px;
+
+
+}
+
+.checkout_container .billing-info .payment-option input, label{
+    margin: 10px 30px;
+    line-height: 26px;
+    font-size: 16px;
+    width: 80%;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.checkout_container .billing-info .payment-option select{
+    margin: 10px;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.checkout_container .billing-info .payment-option button{
+    margin: 10px 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .cart-info p{
+        display: none;
+    }
+}

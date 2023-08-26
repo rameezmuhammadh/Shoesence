@@ -1,0 +1,45 @@
+.manage-orders{
+    margin-top: 50px;
+}
+
+.td-Details {
+    text-decoration: none;
+    font-size: 14px;
+    color: #554cd1;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.td-update{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fab81e;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.td-orderedproduces {
+  width: 400px;
+}
+
+#interface .i-orderheading{
+    color: #444a53;
+    padding: 30px 30px 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10vh;
+}
+#interface .Order {
+    margin: 20px 30px;
+    padding: 20px;
+}
+
+#interface .Order .order-details h4{
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+#interface .Order .update-order-details h4{
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}

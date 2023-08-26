@@ -1,0 +1,83 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  margin: 15vh 30px 150px 30px;
+ border-radius: 16px;
+}
+
+.single_products {
+  position: relative; /* Added position relative to enable absolute positioning within */
+  width: 90%;
+  margin: 10px auto 10px auto;
+  padding: 10px 10px;
+  border-radius: 1rem;
+  background-color: var(--color-bg-1);
+
+}
+
+.single_products img {
+  width: 100%;
+  margin: 0;
+  border-radius: 16px;
+}
+
+.single_products h4 {
+  margin-left: 1rem;
+  margin-bottom: 5px;
+}
+
+.single_products h5 {
+  color: gray;
+  margin-left: 1rem;
+  margin-bottom: 5px;
+}
+
+.single_products .price {
+  margin-bottom: 10px;
+}
+
+.single_products .addtocardicon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.single_products .quickview {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  opacity: 0; /* Hide initially */
+  transition: opacity 0.3s ease; /* Add transition effect for visibility */
+}
+
+.single_products:hover .quickview {
+  opacity: 1; /* Show on hover */
+}
+
+.single_products:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.single_products .size {
+  position: absolute;
+  bottom: 120px;
+  left: 5px;
+}
+  @media (max-width: 767px) {
+    .grid {
+      grid-template-columns: 1fr;
+      margin: 10vh 30px 30px 30px;
+    }
+  
+    .single_products {
+      width: 100%;
+    }
+  
+    .single_products .size {
+      bottom: 80px;
+      left: 10px;
+    }
+  }
+  

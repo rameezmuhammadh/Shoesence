@@ -1,0 +1,262 @@
+/* --------------- Single Product Page ----------------*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  
+  .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    margin-bottom: 3rem;
+  }
+  
+  .col-2 h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    margin: 20px 10px 0 10px;
+  }
+  
+  .small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .single-product{
+   margin-top: 80px;
+  }
+  
+  .single-product .col-2 img{
+    padding: 0;
+  }
+  
+  .single-product .col-2 {
+    padding: 20px;
+  }
+  .single-product .Catogory {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2px;
+    color: gray;
+    padding-left: 20px;
+  }
+
+  .single-product  h4{
+    margin: 16px  0 16px 0;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .single-product  h3{
+    margin: 10px 0 8px 8px;
+    padding-left: 8px;
+    text-transform: uppercase;
+  }
+  .single-product  p{
+    margin: 10px 0 8px 8px;
+    padding-left: 8px;
+    text-align: justify;
+  
+  }
+  .single-product select {
+    display: block;
+    margin: 20px 10px 10px 8px;
+    padding: 10px;
+    
+    border: 1px solid #000000;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  .single-product input {
+    width: 50px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin: 16px 24px 8px 16px ;
+    border: 1px solid var(--color-black);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .btn-addtocard{
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid #000;
+    margin-left: 40px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .btn-addtocard:hover{
+    background-color: #000;
+    color: #fff;
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  
+  .small-img-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .small-img-col {
+    flex-basis: 19%;
+    cursor: pointer;
+  }
+  
+
+
+/*-----------*/
+.tabs {
+  overflow: hidden;
+  margin: 20px  auto;
+  width: 75%;
+}
+.tab-button{
+  background-color: #ddd;
+  width: fit-content;
+  padding: 0;
+  border-radius: 8px;
+  margin-left: 50px;
+  
+}
+
+.tablink {
+  background-color: #ddd;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  margin-top:  5px;
+  border-radius: 8px;
+  border-radius: inherit;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.tablink:hover {
+  background-color: #f2f2f2;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px;
+  width: 80%;
+  margin-left: 50px;
+}
+
+.active {
+  background-color:#f2f2f2;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  border-radius: 8px 8px 1px 1px;
+}
+
+.tabcontent .single-review{
+  margin: 10px 20px 50px 20px;
+}
+.tabcontent .single-review h4{
+  font-size: 18px; 
+}
+.tabcontent .single-review h5{
+  font-size: 16px;
+}
+.tabcontent .single-review i{
+  margin: 5px 0px;
+  padding: 5px;
+}
+.tabcontent .single-review p{
+  font-size: 14px;
+  font-weight: 400;
+}
+.tabcontent .review-from{
+  width: 50%;
+  display: block;
+  background-color: #ececec;
+  border-radius: 16px;
+}
+.tabcontent .review-from h5{
+  margin: 10px 30px;
+  font-size: 18px;
+}
+.tabcontent .review-from input{
+  display: block;
+  width: 90%;
+  height: 30px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+.tabcontent .review-from .your-review{
+  height: 80px;
+}
+.tabcontent .review-from button{
+  margin: 10px 10px;
+  width: 90%;
+}
+
+table {
+  width: fit-content;
+  border-collapse: collapse; 
+  margin: 20px 40px;
+  padding: 5px 20px;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  color: white;
+  background: black;
+  font-weight: 500;
+  margin: 10px;
+ 
+}
+td {
+  padding: 10px 5px;
+  border: 1px solid #929AAB;
+}
+
+
+.tabcontent .size_chart{
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+}
+.size_content{
+  margin: 20px 10px ;
+  
+  align-content: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .single-product .row {
+    text-align: left;
+  }
+  .single-product .col-2{
+    padding: 20px 0;
+  }
+  .single-product h1 {
+    font-size: 26px;
+    line-height: 32px;
+
+  }
+}

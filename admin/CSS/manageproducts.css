@@ -1,0 +1,155 @@
+.manage-product-btn{
+    width: 94%;
+    height: 50px;
+    margin: 100px 0 30px 30px;
+    overflow: auto;
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.manage-product-btn a {
+    color: #00265f;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;  
+    transition: 0.3s ease;
+}
+.manage-product-btn .add:hover {
+    font-size: 22px;
+    transition: 0.3s ease;
+}
+
+/* ===== Margin adding to heading of the pages ===== */
+#interface .board-form{
+    margin-top: 15vh;
+    width: 70%;
+    margin-left: auto;
+margin-right: auto;
+}
+#interface .board-add-product{
+    margin-top: 15vh;
+}
+#interface .products-table,.users-table, .admin-table{
+    margin-top: 30px;
+}
+#interface .admin-btn, .admin-heading{
+    width: 94%;
+    margin-bottom: 10px;
+}
+#interface .add-brand-table{
+    margin-top: 20px;
+    width: 94%;
+}
+#interface .board-edit-product{
+    margin-top: 13vh;
+}
+/* ===== Margin adding end =====  */
+
+.td-action .btn-del{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fe3636;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.td-action .btn-edit{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0ac400cc;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.td-action .btn-edit:hover{
+    font-size: 17px;
+    transition: 0.2s ease;
+}
+.board-add-product{
+    width: 85%;
+}
+.form-container form {
+    width: 94%;
+    padding: 10px 0 10px 10px;
+    margin: 5px 10px 10px 10px;
+}
+.form-container input,
+select,
+textarea{
+    display: block;
+    width: 90%;
+    margin: 20px 30px 20px 30px;
+    height: 40px;
+    border: none;
+    background: #E5E7EB;
+    padding-left: 8px;
+    border-radius: 4px;
+    border: 1px solild;
+}
+.form-container textarea{
+    height: 100px;
+}
+.form-container .textarea{
+    height: 100px;
+}
+label{
+    font-weight: 500;
+    margin-left: 30px;
+}
+.add-product-btn{
+    margin-left: 30px;
+}
+.add-brand-table{
+    width: 85%;
+}
+.product-img{
+    display: flex;
+    margin: 10px 40px 10px 40px;
+   justify-content: space-around;
+}
+.product-img img {
+    width: 150px;
+    height: 150px;
+}
+.admin-btn{
+    width: 85%;
+  }
+.btn-del{
+    color: #fe3636;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .td-Details {
+    text-decoration: none;
+    font-size: 14px;
+    color: #554cd1;
+    font-weight: 600;
+    margin-left: 10px;
+}
+@media ( max-width:769px) {
+    .manage-product-btn{
+        width: 92%;
+    }
+    .manage-product-btn a{
+        font-weight: 500;
+    }
+    .board-form{
+        margin-left: 20px;
+    }
+}
+@media (max-width:477px) {
+    .manage-product-btn{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 10px auto 10px;
+    }
+    .manage-product-btn a{
+        font-size: 18px;
+    }
+    .board-form{
+        margin-left: 10px;
+    }
+
+}

@@ -1,0 +1,43 @@
+
+.logo {
+    margin-top: 80px;
+  }
+  .logo img {
+    width: 60%;
+    margin-left: 80px;
+  }
+  .logo h4 {
+    font-size: large;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    padding: 0 10px;
+  }
+  
+
+
+.form-container .forgot-password{
+    text-align: right;
+    margin-left: 30px;
+    margin-right: 0px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .form-container .register{
+    text-align: left;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  
+  .form-container .login-link {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .login-link:hover{
+    color: var(--color-black);
+  }
+
+  .space {
+    margin-bottom: 30rem;
+  }
